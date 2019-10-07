@@ -60,6 +60,7 @@ RUN apk --update --virtual build-deps add \
         intl \
         mbstring \
         opcache \
+        mysqli \
         pdo_mysql \
         pdo_pgsql && \
     apk del \
