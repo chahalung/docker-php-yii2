@@ -48,7 +48,6 @@ RUN docker-php-ext-configure gd \
         --with-png-dir=/usr/include/ \
         --with-jpeg-dir=/usr/include/ && \
     docker-php-ext-configure bcmath && \
-    docker-php-ext-configure --with-http_realip_module && \
     docker-php-ext-install \
         soap \
         zip \
