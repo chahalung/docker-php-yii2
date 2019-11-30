@@ -50,6 +50,7 @@ Features
  - intl
  - mbstring
  - opcache
+ - mysqli
  - pdo_mysql
  - pdo_pgsql
  - memcache - *Alpine only*
@@ -57,7 +58,8 @@ Features
 
 Configuration
 -------------
-
+ --with-http_realip_module
+ 
 ### ENV variables
 
  - `GITHUB_API_TOKEN`
