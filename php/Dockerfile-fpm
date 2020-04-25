@@ -37,6 +37,8 @@ RUN apt-get update && \
             linkchecker \
             nodejs \
             npm \
+            htop \
+            unzip \
         --no-install-recommends && \
         apt-get clean && \
         npm -g install npm@latest && \
