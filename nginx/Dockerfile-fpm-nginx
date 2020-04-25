@@ -10,6 +10,8 @@ RUN apt-get update \
  && apt-get install -y --force-yes \
             nginx-full \
             cron \
+            unzip \
+            htop \
         --no-install-recommends && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
